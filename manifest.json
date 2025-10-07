@@ -12,8 +12,8 @@
         "changelog": "",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://github.com/bibi0019/jellyfin-plugin-transcodekiller/releases/download/1.0.0/transcode-killer_1.0.0.0.zip",
-        "checksum": "e2cdc5bf88228362cdc380e50616e3e5",
-        "timestamp": "2025-10-07T01:38:50Z"
+        "checksum": "5d0bb17a7a54f8a0d4a9a7ee5ba8bdb6",
+        "timestamp": "2025-10-07T02:04:59Z"
       }
     ]
   }
