@@ -1,0 +1,20 @@
+[
+  {
+    guid: "a0444c3b-fe1c-4258-9e0f-a139fc093949",
+    name: "Transcode Killer",
+    description: "Kills transcoded streams.",
+    overview: "Kills transcoded streams.",
+    owner: "bibi0019",
+    category: "General",
+    versions: [
+      {
+        version: "3.0.0.0",
+        changelog: "",
+        targetAbi: "10.9.0.0",
+        sourceUrl: "https://github.com/bibi0019/jellyfin-plugin-transcodekiller/releases/download/1.0.0/transcode-killer_1.0.0.0.zip",
+        checksum: "e2cdc5bf88228362cdc380e50616e3e5",
+        timestamp: "2025-10-07T01:38:50Z"
+      }
+    ]
+  }
+]
