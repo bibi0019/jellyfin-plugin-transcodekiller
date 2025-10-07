@@ -42,6 +42,7 @@ public class KillerEntrypoint : IHostedService
          */
         if (e.Session.PlayState.PlayMethod is not PlayMethod.Transcode
             || e.Session.PlayState.PlayMethod is PlayMethod.DirectStream
+            || e.Session.PlayState.PlayMethod is PlayMethod.DirectPlay
             || e.Item is not Video
             || (e.Item.Width <= PluginConfiguration.MaxWidth
                 && e.Item.Height <= PluginConfiguration.MaxHeight))
