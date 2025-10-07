@@ -41,6 +41,7 @@ public class KillerEntrypoint : IHostedService
          * Only kill processes that are videos with over the configured width or height.
          */
         if (e.Session.PlayState.PlayMethod is not PlayMethod.Transcode
+            || e.Session.PlayState.PlayMethod is PlayMethod.DirectStream
             || e.Item is not Video
             || (e.Item.Width <= PluginConfiguration.MaxWidth
                 && e.Item.Height <= PluginConfiguration.MaxHeight))
